@@ -321,7 +321,7 @@ extension JKInputView: UITextFieldDelegate {
         }
     }
 
-    private func textFieldDidBeginEditing(_ textField: UITextField) {
+    public func textFieldDidBeginEditing(_ textField: UITextField) {
         guard textFieldState != .error else {
             return
         }
