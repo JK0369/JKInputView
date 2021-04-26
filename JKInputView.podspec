@@ -27,7 +27,7 @@ how to use
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JK0369' => 'palatable7@naver.com' }
-  s.source           = { :git => 'https://github.com/JK0369/JKInputView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JK0369/JKInputView.git', :tag => s.version.to_s, :branch => "master" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
