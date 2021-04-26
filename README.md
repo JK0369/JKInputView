@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![image](https://user-images.githubusercontent.com/43035817/116114856-b858f200-a6f4-11eb-91a1-4f288ba926f9.png)
+
+
 ## Requirements
 
 ## Installation
