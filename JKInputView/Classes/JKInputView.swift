@@ -281,7 +281,7 @@ extension JKInputView {
 
 extension JKInputView: UITextFieldDelegate {
 
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 
         guard let text = textField.text,
               let textRange = Range(range, in: text) else {
@@ -321,7 +321,7 @@ extension JKInputView: UITextFieldDelegate {
         }
     }
 
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    private func textFieldDidBeginEditing(_ textField: UITextField) {
         guard textFieldState != .error else {
             return
         }
