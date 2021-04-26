@@ -11,9 +11,11 @@
 		154E7C8C11EA8310B67D9DDBDB9C23CD /* Pods-JKInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 869DA8FB8AC38EB9EC7882B439C10714 /* Pods-JKInputView_Example-dummy.m */; };
 		451667AADDA1D55C1B00CB3FB3374872 /* Pods-JKInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A12B5D0047FB87B791475F0610CBE997 /* Pods-JKInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		600532B2A6BAEE808B30B6B1B3868257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		654CBAF5067BD200C5CAD912E4D4307E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE26F3F7D28C6D5BBCF60B5801D089C /* ReplaceMe.swift */; };
 		67B199FE610F291BBAE15D56B796AC42 /* JKInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78BB2B7A47319F42027CE5BF855E9C /* JKInputView-dummy.m */; };
 		9216927F4E77FAD25DFD1FD144A30481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E05DE5A726370A9900836DB0 /* JKInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05DE5A526370A9900836DB0 /* JKInputView.xib */; };
+		E05DE5A826370A9900836DB0 /* JKInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05DE5A626370A9900836DB0 /* JKInputView.swift */; };
+		E05DE5C026370E3800836DB0 /* ResourceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05DE5BF26370E3800836DB0 /* ResourceImage.swift */; };
 		E3042389A1E1A16B32934F93992136D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E67589E45C7423190184BA43ECE8FF3B /* Pods-JKInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437E391E84943C4B16CD87DDFAF68C0 /* Pods-JKInputView_Tests-dummy.m */; };
 		EE8F9181B1563D907AB66414C7DDBBFC /* JKInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C17E73CE9145F863F2216F18E6846D /* JKInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +43,6 @@
 		083530867DCA9DFDCB819789D189D098 /* Pods-JKInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		095D602B88CC6B7F2437CEDFF5534176 /* JKInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKInputView.release.xcconfig; sourceTree = "<group>"; };
 		0B78BB2B7A47319F42027CE5BF855E9C /* JKInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKInputView-dummy.m"; sourceTree = "<group>"; };
-		0CE26F3F7D28C6D5BBCF60B5801D089C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JKInputView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		10DAEE6083013DFC19A4FC4B23E59EE7 /* Pods-JKInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28C17E73CE9145F863F2216F18E6846D /* JKInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKInputView-umbrella.h"; sourceTree = "<group>"; };
 		2B0A64041B57B0989D187FADCA32F5E8 /* JKInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKInputView.modulemap; sourceTree = "<group>"; };
@@ -49,25 +50,28 @@
 		3EF8131188E85EB2A2038A2929045AF8 /* Pods-JKInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		44957AEBF7A458A0837F1BBE9A620FFF /* Pods-JKInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		50B56038E01BC193C16A6B58C8DD4929 /* Pods-JKInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKInputView_Example.modulemap"; sourceTree = "<group>"; };
-		561480DB6E16F31B0BA8953CB4DE67C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5E624BFB23C9289F6DDC1C27527E3367 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		561480DB6E16F31B0BA8953CB4DE67C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5E624BFB23C9289F6DDC1C27527E3367 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6437E391E84943C4B16CD87DDFAF68C0 /* Pods-JKInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKInputView_Tests-dummy.m"; sourceTree = "<group>"; };
-		6C069200D6D450BC43C7A2D21C5B8575 /* Pods_JKInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKInputView_Tests.framework; path = "Pods-JKInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C069200D6D450BC43C7A2D21C5B8575 /* Pods_JKInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKInputView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F35A68E9EE2BDC68FB3B21C60917E84 /* Pods-JKInputView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKInputView_Example-Info.plist"; sourceTree = "<group>"; };
 		701E72B3EB4A448F7BD8310A4458917C /* Pods-JKInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77DC9DD9AD60F3D8BB46F6A0B6685AC7 /* JKInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKInputView.debug.xcconfig; sourceTree = "<group>"; };
 		869DA8FB8AC38EB9EC7882B439C10714 /* Pods-JKInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKInputView_Example-dummy.m"; sourceTree = "<group>"; };
 		95C01A07053CDF2F83DC0D131DF4AC6C /* JKInputView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKInputView-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A12B5D0047FB87B791475F0610CBE997 /* Pods-JKInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKInputView_Example-umbrella.h"; sourceTree = "<group>"; };
 		A227FE3A1B37A568E28B4262763A2B19 /* Pods-JKInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A2D80BEFD71910365D8FC26AB79C6B8A /* JKInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKInputView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D80BEFD71910365D8FC26AB79C6B8A /* JKInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKInputView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B19B72AB2140F6BF9948A959A22E0483 /* Pods-JKInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B82D742B07DE327B33AB24624A39735A /* Pods_JKInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKInputView_Example.framework; path = "Pods-JKInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9AB0B3967F5E09973673C639804830D /* JKInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKInputView.framework; path = JKInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82D742B07DE327B33AB24624A39735A /* Pods_JKInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKInputView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AB0B3967F5E09973673C639804830D /* JKInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE11D49C0672A40DA106904AEC6AA66A /* JKInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKInputView-prefix.pch"; sourceTree = "<group>"; };
 		D15A59BA1CD3BB28F08AA79E9A44E084 /* Pods-JKInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E05DE5A526370A9900836DB0 /* JKInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JKInputView.xib; path = JKInputView/Classes/JKInputView.xib; sourceTree = "<group>"; };
+		E05DE5A626370A9900836DB0 /* JKInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKInputView.swift; path = JKInputView/Classes/JKInputView.swift; sourceTree = "<group>"; };
+		E05DE5BF26370E3800836DB0 /* ResourceImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourceImage.swift; path = JKInputView/Classes/ResourceImage.swift; sourceTree = "<group>"; };
 		E4AA04F84E7695E2D3AAD1839792F2D1 /* Pods-JKInputView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKInputView_Tests-Info.plist"; sourceTree = "<group>"; };
 		FA42AFDEEC8FCBCA3778D4436C9DEEE5 /* Pods-JKInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,7 +124,9 @@
 		39E188AA1EE21927903E6D4D01603E1E /* JKInputView */ = {
 			isa = PBXGroup;
 			children = (
-				0CE26F3F7D28C6D5BBCF60B5801D089C /* ReplaceMe.swift */,
+				E05DE5A626370A9900836DB0 /* JKInputView.swift */,
+				E05DE5A526370A9900836DB0 /* JKInputView.xib */,
+				E05DE5BF26370E3800836DB0 /* ResourceImage.swift */,
 				6EF97E4CFE4699AB4E63A14584D2F349 /* Pod */,
 				A287DDFF9C449B44632F175A21BC75F9 /* Support Files */,
 			);
@@ -317,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					CEF6C64FC8A3EBF2443630DF032171A6 = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05DE5A726370A9900836DB0 /* JKInputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +387,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05DE5A826370A9900836DB0 /* JKInputView.swift in Sources */,
+				E05DE5C026370E3800836DB0 /* ResourceImage.swift in Sources */,
 				67B199FE610F291BBAE15D56B796AC42 /* JKInputView-dummy.m in Sources */,
-				654CBAF5067BD200C5CAD912E4D4307E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 095D602B88CC6B7F2437CEDFF5534176 /* JKInputView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -584,7 +598,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JKInputView/JKInputView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JKInputView/JKInputView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JKInputView/JKInputView.modulemap";
 				PRODUCT_MODULE_NAME = JKInputView;
@@ -637,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77DC9DD9AD60F3D8BB46F6A0B6685AC7 /* JKInputView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -648,7 +663,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JKInputView/JKInputView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JKInputView/JKInputView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JKInputView/JKInputView.modulemap";
 				PRODUCT_MODULE_NAME = JKInputView;
@@ -656,6 +671,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -718,8 +734,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
