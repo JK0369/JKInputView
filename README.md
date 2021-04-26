@@ -30,7 +30,7 @@ $ pod repo update
 
 ## Author
 
-JK0369, palatable7@naver.com
+Jake, palatable7@naver.com
 
 ## License
 
