@@ -21,6 +21,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'JKInputView'
+```  
+
+if an error occurs, execute 
+```ruby
+$ pod repo update
 ```
 
 ## Author
