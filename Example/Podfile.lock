@@ -1,0 +1,16 @@
+PODS:
+  - JKInputView (0.1.0)
+
+DEPENDENCIES:
+  - JKInputView (from `../`)
+
+EXTERNAL SOURCES:
+  JKInputView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKInputView: 2d24869ffbc442c542e2c907375e1043859fab82
+
+PODFILE CHECKSUM: dd725998ad74ab1e105f8fecd0a6ea4b231341d5
+
+COCOAPODS: 1.10.1

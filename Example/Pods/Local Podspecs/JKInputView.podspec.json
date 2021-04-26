@@ -1,0 +1,22 @@
+{
+  "name": "JKInputView",
+  "version": "0.1.0",
+  "summary": "A short description of JKInputView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JK0369/JKInputView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JK0369": "palatable7@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/JK0369/JKInputView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKInputView/Classes/**/*"
+}

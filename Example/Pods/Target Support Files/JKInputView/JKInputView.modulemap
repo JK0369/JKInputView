@@ -1,0 +1,6 @@
+framework module JKInputView {
+  umbrella header "JKInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}
